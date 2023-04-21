@@ -1,0 +1,3 @@
+spring:
+  application.name: giantmicroservice # for config server
+  config.import: "optional:configserver:"

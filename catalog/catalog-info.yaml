@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: payment-component-location
+  description: Payment Component for Spring Cloud Architecture on TAP
+spec:
+  targets:
+    - ./payment-component.yaml
